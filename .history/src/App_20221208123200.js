@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import "./assets/css/style.css";
 
-class Game extends Component {
+class game extends Component {
   constructor(props) {
     super(props);
   }
@@ -22,8 +22,9 @@ class Game extends Component {
       <h1>kliknąłeś {this.state.value} razy</h1><br />
       <button onClick={this.handleClick}>klik</button>
       </>
+
     );
   }
 }
  
-export default Game;
+export default game;
